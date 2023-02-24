@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AppDeGatos</title>   
+    <!-- Segunda forma de estilos usanso el elemento style -->
+    <!-- <style>
+      h3 {
+        color:green;
+      }
+
+      p{
+        color: purple;
+      }
+    </style> --> 
+    <!-- Tercera forma de estilos usando archivo .css -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Primera forma de estilos en línea -->
+    <h2 style="color: blue">AppDeGatos</h2>
+    <main>
+      <h3>Imágenes de Gatos:</h3>
+      <!-- NOTA: recordar poner los enlaces-->
+      <!-- Esto es un comentario -->
+      <p>Haz click aquí para ver más <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">imagenes de gatos</a></p> 
+      <p>Estoy haciendo una prueba para enseñarselo a mi querida esposa...</p>
+      <p>      
+        <a href="#parrafo-1">Párrafo 1</a>
+        <a href="#parrafo-2">Párrafo 2</a>
+        <a href="#parrafo-3">Párrafo 3</a>
+      </p>
+
+      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+        <!--<img src="Captura de pantalla_20221205_233402.png " alt="captura de pantalla">-->
+
+      <hr>
+
+      <h3>Lista de Gatos</h3>
+      
+      <div>
+        <p>Cosas que los gatos <em>aman</em>:</p>
+        <ul class="lista-de-gatos">
+          <li>Menta Gatuna</li>
+          <li>Apuntadores Láser</li>
+          <li><s>Lasaña</s></li>
+        </ul>
+        <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img src="imagenes/lasana-de-canre-768x431.jpg" alt="Lasaña."></a>
+
+        <p>Cosas que los gatos <strong>odian:</strong></p>
+        <ol class="lista-de-gatos">
+          <li>Tratamientos antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+      </div>
+
+      <img src="imagenes/gatos.webp" alt="Tres gatos bebes.">
+
+      <form action="/enviar-respuesta">
+        <!-- Botones de Radio -->
+        <label for="interior">
+          <input  id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+        </label>
+
+        <br>  <!--salto de línea-->
+        
+        <label for="exterior">
+          <input  id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+        </label><br>
+        
+        <!-- Casilla de Verificación -->
+        <label for="carinoso">
+          <input  id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso
+        </label><br>
+        
+        <label for="perezoso">
+          <input  id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+        </label><br>
+        
+        <label for="energico">
+          <input  id="energico" type="checkbox" value="energico" name="personalidad">Enérgico
+        </label><br>
+        
+        <!-- Texto y Botón enviar -->
+        <input type="text" placeholder="URL de la foto de tu gato" required><br>
+        
+        <button type="submit">Enviar</button>
+      </form>
+
+      <h3 id="parrafo-1">Parrafo 1</h3>
+      <p>freeCodeCamp es una organización benéfica 501(c)(3) exenta de impuestos apoyada por donantes (Número de identificación fiscal federal de los Estados Unidos: 82-0779546)</p>
+
+      <h3 id="parrafo-2">Parrafo 2</h3>
+      <p>Nuestra misión: ayudar a las personas a aprender a programar de forma gratuita. Logramos esto mediante la creación de millas de videos, artículos y lecciones de programación interactiva, todos disponibles gratuitamente para el público. También tenemos millas de grupos de estudio de FreeCodeCamp en todo el mundo.</p>
+
+      <h3 id="parrafo-3">Parrafo 3</h3>
+      <p>Las donaciones a freeCodeCamp se destinan a nuestras iniciativas educativas y ayudan a pagar los servidores, los servicios y el personal.</p>
+    </main>
+    <!-- Pie de Página -->
+    <footer>
+      <small>
+        <p>Sin Derechos de Autor - <a href="https://www.freecodecamp.org/espanol/" target="_blank">freeCodeCamp.org</a></p>
+      </small>
+    </footer>
+  </body>
+
+</html>
